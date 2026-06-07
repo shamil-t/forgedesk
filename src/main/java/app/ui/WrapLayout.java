@@ -1,7 +1,6 @@
 package app.ui;
 
 import java.awt.*;
-import javax.swing.*;
 
 /**
  * A FlowLayout extension that recalculates height dynamically to wrap grid cards inside JScrollPanes

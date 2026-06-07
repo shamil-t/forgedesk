@@ -1,6 +1,5 @@
 package app.ui;
 
-import com.formdev.flatlaf.FlatDarkLaf;
 import infrastructure.database.DatabaseManager;
 
 import javax.swing.*;

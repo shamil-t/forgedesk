@@ -1,11 +1,9 @@
 import app.ui.MainFrame;
 import com.formdev.flatlaf.FlatDarkLaf;
-import com.formdev.flatlaf.FlatLaf;
 import infrastructure.database.DatabaseManager;
 import infrastructure.database.MigrationRunner;
 
 import javax.swing.*;
-import java.awt.*;
 
 void main() {
 
