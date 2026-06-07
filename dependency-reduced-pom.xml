@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.shamil</groupId>
   <artifactId>ForgeDesk</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <build>
     <plugins>
       <plugin>
@@ -18,7 +18,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>com.shamil.forgedesk.Main</mainClass>
+                  <mainClass>Main</mainClass>
                 </transformer>
               </transformers>
             </configuration>
@@ -38,7 +38,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>com.example.App</mainClass>
+              <mainClass>Main</mainClass>
               <addClasspath>true</addClasspath>
             </manifest>
           </archive>
@@ -54,7 +54,7 @@
           <plugin>
             <groupId>org.graalvm.buildtools</groupId>
             <artifactId>native-maven-plugin</artifactId>
-            <version>1.1.1</version>
+            <version>0.11.3</version>
             <extensions>true</extensions>
             <executions>
               <execution>
@@ -70,6 +70,9 @@
                 <buildArg>-H:+AddAllCharsets</buildArg>
                 <buildArg>--enable-url-protocols=http,https</buildArg>
               </buildArgs>
+              <metadataRepository>
+                <enabled>true</enabled>
+              </metadataRepository>
             </configuration>
           </plugin>
         </plugins>
@@ -77,8 +80,8 @@
     </profile>
   </profiles>
   <properties>
+    <maven.compiler.source>25</maven.compiler.source>
+    <maven.compiler.target>25</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.target>26</maven.compiler.target>
-    <maven.compiler.source>26</maven.compiler.source>
   </properties>
 </project>

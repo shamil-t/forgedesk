@@ -1,3 +1,4 @@
+
 import com.shamil.forgedesk.app.ui.MainFrame;
 import com.formdev.flatlaf.FlatDarkLaf;
 import com.shamil.forgedesk.infrastructure.database.DatabaseManager;
