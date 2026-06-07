@@ -1,6 +1,6 @@
-package app.ui;
+package com.shamil.forgedesk.app.ui;
 
-import infrastructure.database.DatabaseManager;
+import com.shamil.forgedesk.infrastructure.database.DatabaseManager;
 
 import javax.swing.*;
 import java.awt.*;

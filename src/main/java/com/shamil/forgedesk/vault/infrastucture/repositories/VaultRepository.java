@@ -1,8 +1,8 @@
-package vault.infrastucture.repositories;
+package com.shamil.forgedesk.vault.infrastucture.repositories;
 
-import infrastructure.database.DatabaseManager;
-import vault.domain.Vault;
-import vault.infrastucture.interfaces.IVaultRepository;
+import com.shamil.forgedesk.infrastructure.database.DatabaseManager;
+import com.shamil.forgedesk.vault.domain.Vault;
+import com.shamil.forgedesk.vault.infrastucture.interfaces.IVaultRepository;
 
 import java.sql.*;
 import java.util.ArrayList;

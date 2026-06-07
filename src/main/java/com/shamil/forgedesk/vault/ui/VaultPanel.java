@@ -1,8 +1,8 @@
-package vault.ui;
+package com.shamil.forgedesk.vault.ui;
 
-import app.ui.WrapLayout;
-import vault.application.VaultService;
-import vault.domain.Vault;
+import com.shamil.forgedesk.app.ui.WrapLayout;
+import com.shamil.forgedesk.vault.application.VaultService;
+import com.shamil.forgedesk.vault.domain.Vault;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;

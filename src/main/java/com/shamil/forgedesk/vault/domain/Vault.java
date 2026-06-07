@@ -1,4 +1,4 @@
-package vault.domain;
+package com.shamil.forgedesk.vault.domain;
 
 public record Vault(int id,
                     String title,

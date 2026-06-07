@@ -1,7 +1,7 @@
-import app.ui.MainFrame;
+import com.shamil.forgedesk.app.ui.MainFrame;
 import com.formdev.flatlaf.FlatDarkLaf;
-import infrastructure.database.DatabaseManager;
-import infrastructure.database.MigrationRunner;
+import com.shamil.forgedesk.infrastructure.database.DatabaseManager;
+import com.shamil.forgedesk.infrastructure.database.MigrationRunner;
 
 import javax.swing.*;
 

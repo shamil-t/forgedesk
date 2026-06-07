@@ -1,6 +1,6 @@
-package vault.infrastucture.interfaces;
+package com.shamil.forgedesk.vault.infrastucture.interfaces;
 
-import vault.domain.Vault;
+import com.shamil.forgedesk.vault.domain.Vault;
 
 import java.util.List;
 import java.util.Optional;

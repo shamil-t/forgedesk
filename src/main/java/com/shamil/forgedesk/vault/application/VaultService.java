@@ -1,7 +1,7 @@
-package vault.application;
+package com.shamil.forgedesk.vault.application;
 
-import vault.domain.Vault;
-import vault.infrastucture.repositories.VaultRepository;
+import com.shamil.forgedesk.vault.domain.Vault;
+import com.shamil.forgedesk.vault.infrastucture.repositories.VaultRepository;
 
 import java.util.Date;
 import java.util.List;

@@ -1,6 +1,6 @@
-package vault.ui;
+package com.shamil.forgedesk.vault.ui;
 
-import vault.domain.Vault;
+import com.shamil.forgedesk.vault.domain.Vault;
 
 import javax.swing.*;
 import java.awt.*;

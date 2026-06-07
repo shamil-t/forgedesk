@@ -1,4 +1,4 @@
-package app.ui;
+package com.shamil.forgedesk.app.ui;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;

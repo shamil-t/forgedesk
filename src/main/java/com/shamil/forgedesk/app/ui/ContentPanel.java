@@ -1,9 +1,9 @@
-package app.ui;
+package com.shamil.forgedesk.app.ui;
 
-import infrastructure.database.DatabaseManager;
-import vault.application.VaultService;
-import vault.infrastucture.repositories.VaultRepository;
-import vault.ui.VaultPanel;
+import com.shamil.forgedesk.infrastructure.database.DatabaseManager;
+import com.shamil.forgedesk.vault.application.VaultService;
+import com.shamil.forgedesk.vault.infrastucture.repositories.VaultRepository;
+import com.shamil.forgedesk.vault.ui.VaultPanel;
 
 import javax.swing.*;
 import java.awt.*;
